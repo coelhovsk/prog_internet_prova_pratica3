@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD com JSON</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { margin: 5px; padding: 5px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    .actions button { margin-right: 5px; }
+  </style>
+</head>
+<body>
+  <h1>CRUD com JSON</h1>
+
+  <form id="form">
+    <input type="hidden" id="id" />
+    <input type="email" id="Email" placeholder="Email" required />
+    <input type="text" id="Nome" placeholder="Nome" required />
+    <button type="submit">Salvar</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Nome</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="dados-body"></tbody>
+  </table>
+  
+  <div>
+    <h2>Login</h2>
+    <input id="loginEmail" placeholder="Email" />
+    <input id="loginSenha" type="password" placeholder="Senha" />
+    <button id="btnLogin">Login</button>
+    <button id="btnLogout" style="display:none;">Logout</button>
+    <p id="loginStatus"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

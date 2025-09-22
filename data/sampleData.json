@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "email": "Henrique",
+    "nome": "12",
+    "senha": "$2b$08$eEulZQT5AJc4RVIGc/ppterGBXZlGO7OOXeHRCHwkhaLOagWqTntG"
+  },
+  {
+    "id": 2,
+    "email": "aaa",
+    "nome": "111",
+    "senha": "$2b$08$0AB4qX6niyDtik2aUpUC/uW58vVm0.eBbd9Krc/GNNd.aVrXT/hA6"
+  },
+  {
+    "id": 3,
+    "email": "Henrique",
+    "nome": "1",
+    "senha": "$2b$08$XOXnd1lGCNSMeMoXDgq62.XLLyAV6u2sfdVKHvY7NytHgy.n2zzPq"
+  }
+]
